@@ -1,12 +1,12 @@
-# acg
+# ACG
 
 > acg source net
 
-## 部署
-```
-1. 将 images  php  复制到dist下
-2. 将dist下的所有内容复制到网站根目录下
-```
+## Deploy
+
+1. Copy images php under dist
+2. Copy everything under dist to the website root directory
+
 
 ## Build Setup
 
