@@ -1,0 +1,81 @@
+/* 弹框背景 */
+
+* {
+	-webkit-box-sizing: content-box;
+	-ms-box-sizing: content-box;
+	-o-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box !important;
+}
+
+.dialog,
+.dialog:after {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 99999999999999999999;
+}
+
+.dialog:after {
+	content: "";
+	display: block;
+	background: #000;
+	opacity: .4;
+	filter: alpha(opacity=40);
+	z-index: -1;
+}
+
+/* 弹框容器 */
+.wrap {
+	display: none;
+	overflow: hidden;
+	margin: 0 auto;
+	width: 40%;
+	min-height: 100px;
+	background: #fff;
+	border-radius: 8px;
+	font-size: 14px;
+	color: #333;
+	text-align: center;
+}
+
+/* 标题 */
+.dialog-title {
+	padding: 5px 0;
+	box-shadow: 0px 1px 1px rgba(0, 0, 0, .2);
+}
+
+/* 内容 */
+.dialog-content {
+	padding: 10px;
+}
+
+/* 按钮 */
+.dialog-btn {
+	margin-bottom: 10px;
+	padding: 5px 15px;
+	display: inline-block;
+	border: 1px solid rgba(0, 0, 0, .3);
+	outline: none;
+	background: #fff;
+	border-radius: 4px;
+}
+
+.dialog-btn + .dialog-btn {
+	margin-left: 20px;
+}
+
+/* 媒体查询 */
+@media only screen and (max-width: 768px) {
+	.wrap {
+		width: 60%;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	.wrap {
+		width: 80%;
+	}
+}

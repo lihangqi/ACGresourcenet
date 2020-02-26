@@ -1,0 +1,107 @@
+.newsDetailBox > p {
+	margin: 0 30px;
+	text-align: left;
+	text-indent: 2em;
+}
+
+.newsDetailBox > p + p {
+	margin-top: 30px;
+}
+
+.newsDetailPhotoArea > p {
+	margin: 0;
+}
+
+.newsDetailPhoto {
+	margin-bottom: 20px !important;
+}
+
+.newsDetailPhotoArea {
+	margin: 20px auto 30px;
+}
+
+#bnrTwoColumnArea,
+#ob,
+.youtubeFrame,
+.thumbnailArea,
+.animeDetailL > h2,
+.animeSeasonTag,
+.conCheckin,
+.animeTopContainer p[class^="linkArrow"],
+#detailLink,
+.post-ratings,
+.reward_sharing,
+.banner-comment,
+#fail_down,
+hr,
+.down-part  {
+	display: none;
+}
+
+.animeTopContainer ul,
+.animeTopContainer li {
+	margin: 0;
+	list-style: none;
+}
+
+.animeTopContainer dl > dt {
+	margin-top: 20px;
+	font-size: 20px;
+}
+
+#detailSynopsis dd {
+	margin: 10px 30px;
+}
+
+.headAreaInner {
+	margin-top: 40px;
+}
+
+.conEventTime {
+	display: inline-block;
+	margin-left: 10px;
+}
+
+.conEventList {
+	padding: 0;
+	margin: 0 30px;
+}
+
+.conEventList > li {
+	margin: 0 30px;
+	padding: 10px;
+	border: 1px dashed rgba(0, 0, 0, .3);
+}
+
+.conEventList > li + li {
+	margin-top: 20px;
+}
+
+.headAreaInner > h2 {
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.article-content {
+	margin: 0 30px;
+}
+
+.content-text > img {
+	padding: 10px;
+	margin: 10px auto;
+	max-width: 90%;
+	border: 1px solid rgba(0, 0, 0, .2);
+	border-radius: 8px;
+}
+
+.passw:after {
+	content: "";
+	display: block;
+	clear: both;
+	margin-bottom: 20px;
+}
+
+.dl {
+	display: block;
+	font-size: 20px;
+}
